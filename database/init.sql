@@ -7,3 +7,10 @@ CREATE TABLE "user" (
     "username" VARCHAR (80) UNIQUE NOT NULL,
     "password" VARCHAR (1000) NOT NULL
 );
+
+CREATE TABLE "pets" (
+    "id" SERIAL PRIMARY KEY,
+    "name" VARCHAR (80) NOT NULL,
+    "species" VARCHAR (100) NOT NULL,
+    "breed" VARCHAR (80) NOT NULL
+);
