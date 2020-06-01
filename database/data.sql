@@ -1,0 +1,1 @@
+INSERT INTO "pets" ("name", "species", "breed") VALUES ('sparky', 'mandingo', 'mutt');
